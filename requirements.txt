@@ -1,23 +1,23 @@
-annotated-types==0.7.0
-certifi==2025.11.12
-cffi==2.0.0
-charset-normalizer==3.4.4
-contourpy==1.3.2
-cryptography==46.0.3
-cycler==0.12.1
-dill==0.4.0
-fonttools==4.60.1
-ibm-cloud-sdk-core==3.24.2
-ibm-platform-services==0.71.0
-idna==3.11
-kiwisolver==1.4.9
-matplotlib==3.10.7
-numpy==2.2.6
-packaging==25.0
-pillow==12.0.0
-psutil==7.1.3
-pycparser==2.23
-pydantic==2.12.4
+# Core quantum computing
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# IBM Quantum Runtime (for hardware execution)
+qiskit-ibm-runtime>=0.15.0
+
+# Optimization extras
+scikit-optimize>=0.9.0  # Optional: for advanced optimization methods
+
+# Jupyter support (optional)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
 pydantic_core==2.41.5
 PyJWT==2.10.1
 pyparsing==3.2.5
